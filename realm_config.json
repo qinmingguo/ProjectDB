@@ -1,0 +1,8 @@
+{
+    "app_id": "cookingapp-cidqy",
+    "config_version": 20210101,
+    "name": "CookingApp",
+    "location": "US-VA",
+    "deployment_model": "GLOBAL",
+    "environment": "development"
+}
