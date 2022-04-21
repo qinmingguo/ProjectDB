@@ -1,0 +1,42 @@
+{
+    "bsonType": "object",
+    "properties": {
+        "_id": {
+            "bsonType": "string"
+        },
+        "_partition": {
+            "bsonType": "string"
+        },
+        "author": {
+            "bsonType": "string"
+        },
+        "calender": {
+            "bsonType": "string"
+        },
+        "ingredient": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "introduction": {
+            "bsonType": "string"
+        },
+        "process": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "title": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "_id",
+        "_partition",
+        "ingredient",
+        "process"
+    ],
+    "title": "Menu"
+}

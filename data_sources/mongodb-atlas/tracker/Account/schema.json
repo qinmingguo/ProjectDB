@@ -1,0 +1,57 @@
+{
+    "bsonType": "object",
+    "properties": {
+        "_id": {
+            "bsonType": "string"
+        },
+        "_partition": {
+            "bsonType": "string"
+        },
+        "account": {
+            "bsonType": "string"
+        },
+        "age": {
+            "bsonType": "int"
+        },
+        "email": {
+            "bsonType": "string"
+        },
+        "favor_menu_list": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "history_menu_id_list": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "name": {
+            "bsonType": "string"
+        },
+        "own_menu_id_list": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "password": {
+            "bsonType": "string"
+        },
+        "phone_number": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "_id",
+        "_partition",
+        "account",
+        "password",
+        "own_menu_id_list",
+        "favor_menu_list",
+        "history_menu_id_list"
+    ],
+    "title": "Account"
+}
